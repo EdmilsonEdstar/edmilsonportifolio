@@ -39,7 +39,7 @@ export function Hero(){
                     <Link href="#" classN="w-fit my-6 text-sm p-3 bg-gray-800/50 text-blue-400 rounded-2xl"><Linkedin size={15} /></Link> 
                 </div>
                 <div className="text-xl text-center">
-                    <img className="bg-gray-900/70 rounded-xl w-xl h-xl" src="/ed.png" alt="" />
+                    <img className="bg-gray-900/40 rounded-xl w-xl h-xl" src="/ed.png" alt="" />
                     <p className="py-8">Tecnologia que uso</p>
                     <CardSkills children="React"/>
                     <CardSkills children="Tailwind css"/>
