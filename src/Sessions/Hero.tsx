@@ -1,18 +1,18 @@
-import type React from "react"
 import { NavBar } from "../Layout/NavBar"
 import { Link } from "../Components/link"
 import { Download,Github, Linkedin, Send } from "lucide-react"
+import { CardSkills } from "../Components/CardSkills"
 
 export function Hero(){
     return(
         <main className="w-[100%] text-2xl">
             <video
-    autoPlay
-    loop
-    muted
-    playsInline
-    className="absolute top-0 left-0 w-full h-full object-cover -z-10"
-  >
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="absolute top-0 left-0 w-full h-full object-cover -z-10">
+
     <source src="/ed.mp4" type="video/mp4" />
     {/* Fallback caso o vídeo falhe */}
     O teu navegador não suporta vídeos.
@@ -39,15 +39,16 @@ export function Hero(){
                     <Link href="#" classN="w-fit my-6 text-sm p-3 bg-gray-800 text-blue-400 rounded-2xl"><Linkedin size={15} /></Link> 
                 </div>
                 <div className="text-xl text-center">
-                    <img className=" bg-gray-800 text-blue-400 rounded-xl w-xl h-xl" src="/ed.png" alt="" />
+                    <img className="bg-gray-800 text-blue-400 rounded-xl w-xl h-xl" src="/ed.png" alt="" />
                     <p className="py-8">Tecnologia que uso</p>
-                    <p className="w-fit mx-30">
-                        <marquee behavior="scroll" direction="center" scrollamount="3">
-                            <span className="px-8"><span className="text-blue-400 font-bold">#</span>React</span>
-                            <span className="px-8"><span className="text-blue-400 font-bold">#</span>Typescript</span>
-                            <span className="px-8"><span className="text-blue-400 font-bold">#</span>Php</span>
-                        </marquee>
-                    </p>
+                    <CardSkills children="React"/>
+                    <CardSkills children="Tailwind css"/>
+                    <CardSkills children="Typescript"/>
+                    <CardSkills children="Javascript"/>
+                    <CardSkills children="Php"/>
+                    <CardSkills children="Git"/>
+                    <CardSkills children="Github"/>
+                    <CardSkills children="Mysql"/>
                 </div>
             </div>
         </main>

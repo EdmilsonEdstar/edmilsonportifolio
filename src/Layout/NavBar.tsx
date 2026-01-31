@@ -3,7 +3,7 @@ import { Link } from "../Components/link";
 
 export function NavBar(){
     return(
-        <nav className="flex justify-between align-middle text-center p-4">
+        <nav className="flex justify-between align-middle text-center p-8">
             <div>
                 <Link href="#" children="EA" classN="font-bold" /><span className="text-blue-400 font-bold">.</span>
             </div>
