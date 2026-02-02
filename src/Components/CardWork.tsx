@@ -1,6 +1,7 @@
 import { ChevronRight, Github} from "lucide-react"
 import { Link } from "./Link"
 
+
 type PropsCardWork = {
     image: string
     title: string
