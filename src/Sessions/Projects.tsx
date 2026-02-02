@@ -1,5 +1,6 @@
 import { CardWork } from "../Components/CardWork"
 import { Title } from "../Components/Title"
+
 export function Projects(){
     return(
         <main className="w-full text-2xl">
