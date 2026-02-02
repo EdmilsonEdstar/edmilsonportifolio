@@ -3,7 +3,7 @@ import { Link } from "../Components/Link";
 
 export function NavBar(){
     return(
-        <nav className="fixed top-0 left-0 w-full flex  justify-between align-middle text-center px-8 py-4 backdrop-blur-md border-b-2 border-white/10">
+        <nav className="fixed z-10 top-0 left-0 w-full flex  justify-between align-middle text-center px-8 py-4 backdrop-blur-md border-b-2 border-white/10">
             <div>
                 <Link href="#" children="EA" classN="font-bold" /><span className="text-blue-400 font-bold">.</span>
             </div>

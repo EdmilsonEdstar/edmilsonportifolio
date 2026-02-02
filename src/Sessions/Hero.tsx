@@ -4,18 +4,7 @@ import { Download,Github, Linkedin, Send } from "lucide-react"
 
 export function Hero(){
     return(
-        <main className="w-[100%] text-2xl">
-            <video
-              autoPlay
-              loop
-              muted 
-              playsInline
-              className="absolute top-0 left-0 w-full h-full object-cover -z-10">
-
-    <source src="/ed.mp4" type="video/mp4" />
-    {/* Fallback caso o vídeo falhe */}
-    O teu navegador não suporta vídeos.
-  </video>
+        <main className="w-[100%] text-2xl bg-hero-pattern">
             <NavBar/>
             <div className="mb-5 pt-[5rem] mx-6  lg:flex  lg:justify-between lg:mx-[10rem] lg:gap-12 lg:pt-[10rem]">
                 <div>
@@ -40,8 +29,9 @@ export function Hero(){
                     </div>
                 </div>
                
-                <div>
-                    <img className="rounded-xl w-xl h-xl lg:w-[25rem] lg:h-[30rem] lg:ml-5" src="/ed1.png" alt="" />
+                <div className="p-[3px] bg-gradient-to-br from-cyan-400 via-blue-500 to-indigo-600 
+            rounded-[60%_40%_55%_45%/45%_55%_45%_55%] shadow-2xl">
+                    <img className="rounded-[60%_40%_55%_45%/45%_55%_45%_55%] object-cover w-[380px] h-[420px]" src="/ed.png" alt="" />
                 </div>
             </div>
         </main>
