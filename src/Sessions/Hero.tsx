@@ -17,12 +17,12 @@ export function Hero(){
     O teu navegador não suporta vídeos.
   </video>
             <NavBar/>
-            <div className="my-5 mx-6 lg:flex  lg:justify-between lg:mx-[10rem] lg:gap-12 pt-[10rem]">
+            <div className="mb-5 pt-[5rem] mx-6  lg:flex  lg:justify-between lg:mx-[10rem] lg:gap-12 lg:pt-[10rem]">
                 <div>
                     <div className="w-fit my-6 text-sm p-3 bg-gray-800/50 text-green-300 rounded-2xl">
                         Software Developer - React specialist
                     </div>
-                    <h1 className="w-fit my-6  text-4xl font-bold leading-tight lg:w-[35rem]">Building high-performance <span className="text-blue-300 font-black">applications</span> with React and Precision. </h1>
+                    <h1 className="w-fit my-6  text-4xl font-bold leading-tight lg:w-[35rem]">Building high-performance <span className="text-blue-400 font-black">applications</span> with React and Precision. </h1>
                     <p className="w-fit my-6  text-sm leading-tight text-gray-400 lg:w-[30rem]">
                         Hi! I'm Edmilson António, a Software Developer specialized in building end-to-end digital solutions. 
                         Leveraging my expertise in React and TypeScript, I create high-performance, secure, and scalable interfaces.
@@ -35,8 +35,8 @@ export function Hero(){
                     </div>
                     <div className="flex text-xl">
                         <Link href="#" classN="w-fit my-6 text-sm p-3 text-white rounded-2xl">Siga-me:</Link> 
-                        <Link href="#" classN="w-fit my-6 text-sm p-3 bg-gray-800/50 text-blue-300 rounded-2xl mr-2"><Github size={15} /></Link> 
-                        <Link href="#" classN="w-fit my-6 text-sm p-3 bg-gray-800/50 text-blue-300 rounded-2xl"><Linkedin size={15} /></Link> 
+                        <Link href="#" classN="w-fit my-6 text-sm p-3 bg-gray-800/50 text-blue-400 rounded-2xl mr-2"><Github size={15} /></Link> 
+                        <Link href="#" classN="w-fit my-6 text-sm p-3 bg-gray-800/50 text-blue-400 rounded-2xl"><Linkedin size={15} /></Link> 
                     </div>
                 </div>
                

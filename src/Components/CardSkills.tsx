@@ -18,14 +18,14 @@ export function CardSkills({ children, width, per }: PropsCardSkills) {
                 <div className="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
                     {/* A "Fita" Azul (Progress) */}
                     <div 
-                        className="bg-blue-300 h-full rounded-full transition-all duration-500" 
+                        className="bg-blue-400 h-full rounded-full transition-all duration-500" 
                         style={{ width: `${width}%` }} 
                     />
                 </div>
             </div>
 
             {/* Percentagem */}
-            <p className="text-sm text-blue-300 font-mono shrink-0">{per}</p>
+            <p className="text-sm text-blue-400 font-mono shrink-0">{per}</p>
         </div>
     );
 }
