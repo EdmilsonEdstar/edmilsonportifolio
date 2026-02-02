@@ -6,17 +6,16 @@ export function Experience() {
         /* Mantemos o z-0 para o conteúdo não subir sobre o menu fixo */
         <main className="w-full text-2xl relative z-0">
             <div className="space-y-6 mx-6">  
-                <Title titulo="Experience" />
+                <Title titulo="Experiência" id="experience" />
                 
                 <div className="lg:flex lg:justify-between lg:gap-6 text-xl text-center space-y-8 mb-12">
                     <div className="lg:flex lg:justify-between lg:flex-wrap lg:gap-6 space-y-6">
-                        <p className="lg:w-[50%] text-left text-4xl font-bold leading-tight">
-                            <span className="text-green-300 pr-2">Discover my journey,</span>
-                            <span className="italic">exploring the path from core logic to modern digital solutions.</span>
+                        <p className="lg:w-[60%] text-left text-3xl lg:text-4xl font-bold leading-tight">
+                            <span className="text-green-300 pr-2">Descubra minha jornada,</span><span className="italic">explorando o caminho da lógica central até soluções digitais modernas.</span>
                         </p>
                         <div className="space-y-6">
                             <p className="text-left text-xl text-gray-400">
-                                Building high-performance applications with React and Precision.
+                                Construindo aplicações de alta performance com React e precisão.
                             </p>
                         </div>
                     </div>
@@ -31,9 +30,9 @@ export function Experience() {
                         <div className="absolute -left-[41px] top-0 h-5 w-5 rounded-full border-4 border-slate-950 bg-teal-500 shadow-[0_0_10px_rgba(20,184,166,0.5)] z-10"></div>
                         
                         <CardAbout 
-                            icon="2026 - Present" 
-                            title="Freelance" 
-                            subtitle="high-performance React apps with Precision" 
+                            icon="JAN-2026 -> FEV-2026" 
+                            title="React Developer(Freelancer) - Sistema de Prestação de Serviços Procano" 
+                            subtitle="Construindo aplicações de alta performance com React e precisão." 
                         />
                     </div>
 
@@ -42,9 +41,9 @@ export function Experience() {
                         <div className="absolute -left-[41px] top-0 h-5 w-5 rounded-full border-4 border-slate-950 bg-teal-500 shadow-[0_0_10px_rgba(20,184,166,0.5)] z-10"></div>
                         
                         <CardAbout 
-                            icon="2026 - Present" 
-                            title="Insutec" 
-                            subtitle="high-performance React apps with Precision" 
+                            icon="FEV-2023 -> JUL-2023" 
+                            title="Software Developer(Insutec) - Sistema de Gestão Escolar " 
+                            subtitle="Construindo aplicações de alta performance com React e precisão." 
                         />
                     </div>
 
@@ -53,9 +52,9 @@ export function Experience() {
                         <div className="absolute -left-[41px] top-0 h-5 w-5 rounded-full border-4 border-slate-950 bg-teal-500 shadow-[0_0_10px_rgba(20,184,166,0.5)] z-10"></div>
                         
                         <CardAbout 
-                            icon="2026 - Present" 
-                            title="Freelance" 
-                            subtitle="high-performance React apps with Precision" 
+                            icon="SET-2021 -> NOV-2022" 
+                            title="Fullstack Developer(Freelance) - Loja online e Sistema de Prestação de Serviços " 
+                            subtitle="Construindo aplicações de alta performance com React e precisão." 
                         />
                     </div>
 

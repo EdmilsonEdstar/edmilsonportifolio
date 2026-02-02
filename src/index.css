@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 @layer base {
+  html {
+    /* Ativa o scroll suave para toda a página */
+    scroll-behavior: smooth;
+  }
   body {
     @apply bg-black text-white;
   }
