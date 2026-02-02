@@ -1,18 +1,31 @@
-import { Code2} from "lucide-react"
-
-
 type PropsCardSkills = {
-    children: string
+    children: string;
+    width: string; // Ex: "75"
+    per: string;   // Ex: "75%"
 }
 
+export function CardSkills({ children, width, per }: PropsCardSkills) {
+    return (
+        <div className="bg-gray-900/40 flex items-center gap-4 px-6 py-6 rounded-lg mb-4 lg:w-[25rem]">
 
-export function CardSkills(props:PropsCardSkills){
-    return(
+            {/* Nome e Barra */}
+            <div className="flex flex-col flex-1 gap-2">
+                <span className="text-left text-white text-sm font-medium">
+                    {children}
+                </span>
+                
+                {/* Contentor da Barra (Background) */}
+                <div className="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+                    {/* A "Fita" Azul (Progress) */}
+                    <div 
+                        className="bg-blue-300 h-full rounded-full transition-all duration-500" 
+                        style={{ width: `${width}%` }} 
+                    />
+                </div>
+            </div>
 
-        <div className="bg-gray-900/40 flex justify-left items-center gap-4 text-center px-6 py-6 rounded-lg mb-4">
-            <span className="text-blue-400"><Code2/></span> {props.children}
+            {/* Percentagem */}
+            <p className="text-sm text-blue-300 font-mono shrink-0">{per}</p>
         </div>
-
-
-    )
+    );
 }
