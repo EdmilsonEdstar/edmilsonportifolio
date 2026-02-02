@@ -1,7 +1,7 @@
 import { CardWork } from "../Components/CardWork"
 import { Title } from "../Components/Title"
 
-export function Projects(){
+export function Project(){
     return(
         <main className="w-full text-2xl">
             <div className="space-y-6 mx-6">  
