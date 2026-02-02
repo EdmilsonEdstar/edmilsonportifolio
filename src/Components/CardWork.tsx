@@ -19,6 +19,7 @@ export function CardWork(props:PropsCardWork){
                 <Link href="#" children={<Github/>} classN="border border-gray-800 p-3 rounded-xl hover:text-blue-300 duration-300"/>
                 <Link href="#" children={<ChevronRight/>} classN="border border-gray-800 p-3 rounded-xl hover:text-blue-300 duration-300"/>
             </div>
+            <p>Oi</p>
         </div>
     )
 }
