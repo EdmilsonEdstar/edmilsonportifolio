@@ -34,7 +34,7 @@ export function NavBar() {
 
       {/* Menu mobile */}
       <div
-        className="absolute top-full left-0 w-full h flex flex-col bg-black text-center py-4 transition duration"
+        className="absolute top-full left-0 w-full h flex flex-col bg-gray-950/95 text-base text-center py-4 transition duration"
         style={{ display: showMenu ? "flex" : "none" }}
       >
         <Link href="#about" children="Sobre mim" classN="p-2 hover:text-blue-400 duration-300" />

@@ -20,8 +20,8 @@ export function Hero(){
                     </p>
 
                     <div className="flex py-6 text-sm">
-                        <Link href="#contacts" classN="flex w-fit bg-blue-400 text-gray-100 hover:bg-transparent border border-gray-700 rounded-2xl py-3 px-6 mr-4 shadow-lg  hover:shadow-none duration-300"><Send size={18} /><span className="pl-3">Contacto</span></Link> 
-                        <Link href="#" classN="flex w-fit border border-gray-700 rounded-2xl py-3 px-6 hover:bg-blue-400 duration-300"><span className="pr-3">Meu CV</span> <Download size={18} /></Link> 
+                        <Link href="#contacts" classN="flex w-fit bg-blue-400 text-gray-100 hover:bg-transparent border border-gray-400 rounded-2xl py-3 px-6 mr-4 shadow-lg  hover:shadow-none duration-300"><Send size={18} /><span className="pl-3">Contacto</span></Link> 
+                        <Link href="#" classN="flex w-fit border border-gray-400 rounded-2xl py-3 px-6 hover:bg-blue-400 duration-300"><span className="pr-3">Meu CV</span> <Download size={18} /></Link> 
                     </div>
                     <div className="flex text-xl">
                         <a className="w-fit my-6 text-sm p-3 text-white rounded-2xl">Siga-me:</a> 
