@@ -30,8 +30,9 @@ export function Hero(){
                     </div>
                 </div>
                
-                <div className="p-[3px] bg-gradient-to-br from-cyan-800 via-gray-900 to-indigo-600 rounded-[60%_40%_55%_45%/45%_55%_45%_55%] shadow-2xl fade-in2">
-                    <img className="rounded-[60%_40%_55%_45%/45%_55%_45%_55%] object-cover w-[380px] h-[420px]" src="/ed.png" alt="" />
+                <div className="p-[1px] bg-gradient-to-br from-cyan-800 via-gray-900 to-indigo-600 rounded-[60%_40%_55%_45%/45%_55%_45%_55%] lg:h-[520px]  fade-in2">
+                <img className="rounded-[60%_40%_55%_45%/45%_55%_45%_55%] object-cover object-top w-[380px] h-[420px]" src="/ed.png" alt="" />
+
                 </div>
             </div>
             <div className="flex justify-center columns-1">
