@@ -8,20 +8,20 @@ export function Experience() {
             <div className="space-y-6 mx-6">  
             <Title titulo="Experiências" id="experience" />
 
-<div className="lg:flex lg:justify-between lg:gap-6 text-xl text-center space-y-8 mb-12">
-  <div className="lg:flex lg:justify-between lg:flex-wrap lg:gap-6 space-y-6">
+                <div className="lg:flex lg:justify-between lg:gap-6 text-xl text-center space-y-8 mb-12">
+                <div className="lg:flex lg:justify-between lg:flex-wrap lg:gap-6 space-y-6">
 
-    <p className="lg:w-[60%] text-left text-3xl lg:text-4xl font-bold leading-tight">
-      <span className="text-purple-400 pr-2">Descubra minhas experiências,</span>
-      <span className="italic">onde a prática e os desafios me permitiram crescer como desenvolvedor, adquirindo habilidades em React, Tailwind CSS e desenvolvimento de soluções reais.</span>
-    </p>
+                    <p className="lg:w-[60%] text-left text-3xl lg:text-4xl font-bold leading-tight">
+                    <span className="text-green-300 pr-2">Descubra minhas experiências,</span>
+                    <span className="italic">onde a prática e os desafios me permitiram crescer e desenvolver soluções reais.</span>
+                    </p>
 
-    <p className="text-left text-xl text-gray-400">
-      Trabalhei em projetos profissionais como <span className="text-green-300 font-bold">Procano.pt</span>, além de experiências em aplicações educacionais e sistemas internos, sempre focando em eficiência, qualidade de código e resultados visíveis.
-    </p>
+                    <p className="text-left text-xl text-gray-400">
+                    Trabalhei em projetos profissionais como <span className="text-green-300 font-bold">Procano.pt</span>, além de experiências em aplicações educacionais e sistemas internos, sempre focando em eficiência, qualidade de código e resultados visíveis.
+                    </p>
 
-  </div>
-</div>
+                </div>
+                </div>
 
 
                 {/* Container da Timeline - O 'relative' aqui é importante para a linha vertical */}

@@ -53,33 +53,6 @@
       filter: blur(0);       /* fica nítido */
     }
   }
-  .blur {
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-  }
-
-  .typing {
-    width: 20ch; /* comprimento máximo do texto */
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 2px solid #fff; /* cursor */
-    font-family: monospace;
-    font-size: 2rem;
-    animation:
-      typing 3s steps(20) 1 forwards,
-      blink 0.7s step-end infinite;
-  }
-  
-  @keyframes typing {
-    from { width: 0; }
-    to { width: 20ch; } /* mesma quantidade de caracteres */
-  }
-  
-  @keyframes blink {
-    50% { border-color: transparent; }
-  }
-  
-  
-  
+ 
   
 }
