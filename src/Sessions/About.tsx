@@ -26,10 +26,10 @@ export function About(){
                        
                     </div>
                 </div>
-                <div className="items-center text-center lg:flex lg:justify-between lg:flex-wrap space-y-6">
-                    <CardAbout icon={<Code2/>} title="Código Limpo" subtitle="Aplicações React de alta performance com precisão" />
-                    <CardAbout icon={<Rocket/>} title="Performance" subtitle="Aplicações React de alta performance com precisão" />
-                    <CardAbout icon={<Sparkles/>} title="Inovação" subtitle="Aplicações React de alta performance com precisão" />
+                <div className="items-center text-center lg:flex lg:justify-between lg:flex-wrap space-y-6 lg:space-y-0">
+                    <CardAbout href="#experience" icon={<Code2/>} title="Código Limpo" subtitle="Aplicações React de alta performance com precisão" />
+                    <CardAbout href="#experience" icon={<Rocket/>} title="Performance" subtitle="Aplicações React de alta performance com precisão" />
+                    <CardAbout href="#experience" icon={<Sparkles/>} title="Inovação" subtitle="Aplicações React de alta performance com precisão" />
                 </div>
             </div>
         </main>

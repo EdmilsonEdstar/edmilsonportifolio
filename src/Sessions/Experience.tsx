@@ -29,7 +29,7 @@ export function Experience() {
                         {/* Ponto da Timeline - Agora ele sabe que deve ficar ao lado deste card */}
                         <div className="absolute -left-[41px] top-0 h-5 w-5 rounded-full border-4 border-slate-950 bg-teal-500 shadow-[0_0_10px_rgba(20,184,166,0.5)] z-10"></div>
                         
-                        <CardAbout 
+                        <CardAbout href="#projects"
                             icon="JAN-2026 -> FEV-2026" 
                             title="React Developer(Freelancer) - Sistema de Prestação de Serviços Procano" 
                             subtitle="Construindo aplicações de alta performance com React e precisão." 
@@ -40,7 +40,7 @@ export function Experience() {
                     <div className="relative">
                         <div className="absolute -left-[41px] top-0 h-5 w-5 rounded-full border-4 border-slate-950 bg-teal-500 shadow-[0_0_10px_rgba(20,184,166,0.5)] z-10"></div>
                         
-                        <CardAbout 
+                        <CardAbout href="#projects"
                             icon="FEV-2023 -> JUL-2023" 
                             title="Software Developer(Insutec) - Sistema de Gestão Escolar " 
                             subtitle="Construindo aplicações de alta performance com React e precisão." 
@@ -51,7 +51,7 @@ export function Experience() {
                     <div className="relative">
                         <div className="absolute -left-[41px] top-0 h-5 w-5 rounded-full border-4 border-slate-950 bg-teal-500 shadow-[0_0_10px_rgba(20,184,166,0.5)] z-10"></div>
                         
-                        <CardAbout 
+                        <CardAbout href="#projects"
                             icon="SET-2021 -> NOV-2022" 
                             title="Fullstack Developer(Freelance) - Loja online e Sistema de Prestação de Serviços " 
                             subtitle="Construindo aplicações de alta performance com React e precisão." 

@@ -19,10 +19,10 @@ export function Contacts(){
                        
                     </div>
                 </div>
-                <div className="items-center text-center lg:flex lg:justify-between lg:flex-wrap space-y-6">
-                        <CardAbout icon={<Mail/>} title="E-mail" subtitle="edmilsonantoniooficial@gmail.com" />
-                        <CardAbout icon={<Linkedin/>} title="Linkedin" subtitle="https://www.linkedin.com/in/edmilson-ant%C3%B3nio-44a1b1266/" />
-                        <CardAbout icon={<Github/>} title="GitHub" subtitle="https://github.com/EdmilsonEdstar?tab=repositories" />
+                <div className="items-center text-center lg:flex lg:justify-between lg:flex-wrap space-y-6 lg:space-y-0">
+                        <CardAbout href="#email" icon={<Mail/>} title="E-mail" subtitle="edmilsonantoniooficial@gmail.com" />
+                        <CardAbout href="https://www.linkedin.com/in/edmilson-ant%C3%B3nio-44a1b1266/" icon={<Linkedin/>} title="Linkedin" subtitle="https://www.linkedin.com/in/edmilson-ant%C3%B3nio-44a1b1266/" />
+                        <CardAbout href="https://github.com/EdmilsonEdstar?tab=repositories" icon={<Github/>} title="GitHub" subtitle="https://github.com/EdmilsonEdstar?tab=repositories" />
                 </div>
             </div>
         </main>
