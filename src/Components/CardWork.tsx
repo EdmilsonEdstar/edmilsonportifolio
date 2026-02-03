@@ -12,7 +12,7 @@ type PropsCardWork = {
 
 export function CardWork(props:PropsCardWork){
     return(
-        <div className="bg-gray-900/40 p-6 text-left space-y-4 rounded-xl lg:w-[35rem] lg:h-[35rem]">
+        <div className="bg-gray-900/40 p-6 text-left space-y-4 rounded-xl lg:w-[35rem] lg:h-[35rem] hover:shadow-blue-400 hover:shadow-2xl transition-all ">
             <div><img src={props.image} alt="" className="rounded-xl lg:w-full lg:h-[20rem]" /></div>
             <p className="font-bold text-xl text-blue-400">{props.title}</p>
             <p className="text-sm text-gray-400">{props.subtitle}</p>

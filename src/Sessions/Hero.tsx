@@ -21,7 +21,7 @@ export function Hero(){
 
                     <div className="flex py-6 text-sm">
                         <Link href="#contacts" target="" rel="" classN="flex w-fit bg-blue-500 text-gray-100 hover:bg-blue-900 border border-transparent rounded-2xl py-3 px-6 mr-4 shadow-lg  hover:shadow-none duration-300"><Send size={18} /><span className="pl-3">Contacto</span></Link> 
-                        <Link href="#" target="" rel="" classN="flex w-fit border border-gray-400 rounded-2xl py-3 px-6 hover:bg-gray-900 duration-300"><span className="pr-3">Meu CV</span> <Download size={18} /></Link> 
+                        <a href="/cv.pdf" download target="" rel="" className="flex w-fit border border-gray-400 rounded-2xl py-3 px-6 hover:bg-gray-900 duration-300"><span className="pr-3">Meu CV</span> <Download size={18} /></a> 
                     </div>
                     <div className="flex text-xl">
                         <a className="w-fit my-6 text-sm p-3 text-white rounded-2xl">Siga-me:</a> 
