@@ -1,13 +1,13 @@
 import { NavBar } from "../Layout/NavBar"
 import { Link } from "../Components/Link"
-import { Download,Github, Linkedin, Send } from "lucide-react"
+import { ArrowDown, Download,Github, Linkedin, Send } from "lucide-react"
 
 export function Hero(){
     return(
         <main className="w-[100%] text-2xl bg-hero-pattern" id="home">
             <NavBar/>
             <div className="mb-5 pt-[5rem] mx-6  lg:flex  lg:justify-between lg:mx-[10rem] lg:gap-12 lg:pt-[10rem]">
-                <div>
+                <div className="fade-in1">
                     <div className="w-fit my-6 text-sm p-3 bg-gray-800/90 text-green-300 rounded-2xl">
                         Software Developer - React specialist
                     </div>
@@ -30,9 +30,12 @@ export function Hero(){
                     </div>
                 </div>
                
-                <div className="p-[3px] bg-gradient-to-br from-cyan-400 via-blue-500 to-indigo-600 rounded-[60%_40%_55%_45%/45%_55%_45%_55%] shadow-2xl">
+                <div className="p-[3px] bg-gradient-to-br from-cyan-400 via-blue-500 to-indigo-600 rounded-[60%_40%_55%_45%/45%_55%_45%_55%] shadow-2xl fade-in2">
                     <img className="rounded-[60%_40%_55%_45%/45%_55%_45%_55%] object-cover w-[380px] h-[420px]" src="/ed.png" alt="" />
                 </div>
+            </div>
+            <div className="flex justify-center columns-1">
+                <p className="arrowdown"><ArrowDown/></p>
             </div>
         </main>
         

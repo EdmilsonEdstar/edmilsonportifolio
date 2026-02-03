@@ -15,10 +15,10 @@ export function CardSkills({ children, width, per }: PropsCardSkills) {
                 </span>
                 
                 {/* Contentor da Barra (Background) */}
-                <div className="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+                <div className="w-full bg-gray-500 h-2 rounded-full overflow-hidden">
                     {/* A "Fita" Azul (Progress) */}
                     <div 
-                        className="bg-blue-400 h-full rounded-full transition-all duration-500" 
+                        className="bg-gray-700 h-full rounded-full transition-all duration-500" 
                         style={{ width: `${width}%` }} 
                     />
                 </div>

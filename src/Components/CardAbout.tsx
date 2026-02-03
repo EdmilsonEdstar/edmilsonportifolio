@@ -11,10 +11,10 @@ type PropsCardSkills = {
 
 export function CardAbout(props:PropsCardSkills){
     return(
-        <div className="bg-gray-800/50 p-6 text-left space-y-4 rounded-xl m">
+        <div className="bg-gray-900/40 p-6 text-left space-y-4 rounded-xl m">
             <p className="w-fit bg-blue-400 text-sm text-white p-2 rounded-xl">{props.icon}</p> 
             <p className="font-bold text-xl">{props.title}</p>
-           <Link href={props.href} classN=""> <p className="text-sm text-green-100">{props.subtitle}</p> </Link>
+           <Link href={props.href} classN=""> <p className="text-sm text-gray-400">{props.subtitle}</p> </Link>
         </div>
     )
 }
