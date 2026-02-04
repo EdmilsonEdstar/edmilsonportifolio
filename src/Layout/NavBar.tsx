@@ -19,10 +19,10 @@ export function NavBar() {
 
       {/* Menu desktop */}
       <div className="hidden md:flex text-base lg:bg-gray-800/50 lg:py-2 lg:px-8 lg:rounded-4xl duration-500">
-        <Link href="#about" target="" rel="" children="Sobre mim" classN="p-2 hover:text-blue-400 duration-300" />
-        <Link href="#projects" target="" rel="" children="Projectos" classN="p-2 hover:text-blue-400 duration-300" />
-        <Link href="#experience" target="" rel="" children="Experiência" classN="p-2 hover:text-blue-400 duration-300" />
-        <Link href="#contacts" target="" rel="" children="Contactos" classN="p-2 hover:text-blue-400 duration-300" />
+        <Link href="#about" children="Sobre mim" classN="p-2 hover:text-blue-400 duration-300" />
+        <Link href="#projects" children="Projectos" classN="p-2 hover:text-blue-400 duration-300" />
+        <Link href="#experience" children="Experiência" classN="p-2 hover:text-blue-400 duration-300" />
+        <Link href="#contacts" children="Contactos" classN="p-2 hover:text-blue-400 duration-300" />
       </div>
 
       {/* Ícone do menu mobile */}
@@ -33,14 +33,11 @@ export function NavBar() {
       </div>
 
       {/* Menu mobile */}
-      <div
-        className="absolute top-full left-0 w-full h flex flex-col bg-gray-950/95 text-base text-center py-4 transition duration"
-        style={{ display: showMenu ? "flex" : "none" }}
-      >
-        <Link href="#about" target="" rel="" children="Sobre mim" classN="p-2 hover:text-blue-400 duration-300" />
-        <Link href="#projects" target="" rel="" children="Projectos" classN="p-2 hover:text-blue-400 duration-300" />
-        <Link href="#experience" target="" rel="" children="Experiência" classN="p-2 hover:text-blue-400 duration-300" />
-        <Link href="#contacts" target="" rel="" children="Contactos" classN="p-2 hover:text-blue-400 duration-300" />
+      <div className={`absolute top-full left-0 w-full flex flex-col bg-gray-950/95 text-xl font-bold text-center py-6 transform transition-all duration-300 ease-in-out ${showMenu ? "opacity-100 translate-y-0 pointer-events-auto" : "opacity-0 -translate-y-4 pointer-events-none"}`}>
+        <Link href="#about" onclick={()=> setShowMenu(false)} children="Sobre mim" classN="p-2 hover:text-blue-400 duration-300" />
+        <Link href="#projects" onclick={()=> setShowMenu(false)} children="Projectos" classN="p-2 hover:text-blue-400 duration-300" />
+        <Link href="#experience" onclick={()=> setShowMenu(false)} children="Experiência" classN="p-2 hover:text-blue-400 duration-300" />
+        <Link href="#contacts" onclick={()=> setShowMenu(false)} children="Contactos" classN="p-2 hover:text-blue-400 duration-300" />
       </div>
 
       {/* Ícone de telefone desktop */}
